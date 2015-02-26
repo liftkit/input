@@ -4,15 +4,21 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "19c10d70a5775c1b81a4d2e22850aa9b",
+    "hash": "7c9fe753ff06b8a05512931e6b18338d",
     "packages": [
         {
             "name": "liftkit/collection",
-            "version": "dev-master",
+            "version": "v1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/liftkit/collection",
+                "url": "https://github.com/liftkit/collection.git",
                 "reference": "41d2c3bb8855e0b779c1930875d5f5adde99db57"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/liftkit/collection/zipball/41d2c3bb8855e0b779c1930875d5f5adde99db57",
+                "reference": "41d2c3bb8855e0b779c1930875d5f5adde99db57",
+                "shasum": ""
             },
             "require-dev": {
                 "phpunit/phpunit": "4.5.*"
@@ -23,6 +29,7 @@
                     "LiftKit\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "LGP-2.1"
             ],
@@ -993,9 +1000,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "liftkit/collection": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
